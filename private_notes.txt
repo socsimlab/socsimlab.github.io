@@ -1,0 +1,3 @@
+# Previous DNS settings
+37.97.151.234
+2a01:7c8:aabd:775::1
