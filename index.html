@@ -21,17 +21,40 @@
             width: 100%;
             min-height: 100%;
         }
+        /* @media only screen and (max-width: 600px) {
+            body {
+                background-image: url( "res/denys-nevozhai-unsplash 640.jpg" );
+            }
+        }
+        @media only screen and (min-width: 600px) {
+            body {
+                background-image: url( "res/denys-nevozhai-unsplash 1920.jpg" );
+            }
+        } */
         body {
-            background-image: url("socsimlab logo xploration.svg");
+            background-image: url( "res/denys-nevozhai-unsplash 1920.jpg" );
             background-position: center center;
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: cover;
+        }
+        div {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 60px;
+            background-image: url("socsimlab logo xploration.svg");
+            background-color: rgba( 255, 255, 255, 0.9 );
+            background-position: -35px -108px;
+            background-repeat: no-repeat;
+            background-size: 300px 300px;
         }
     </style>
 
 </head>
 
 <body>
+    <div class="logo"></div>
 </body>
 
 </html>
